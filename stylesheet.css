@@ -12,9 +12,7 @@
 }
 
 body {
-    border-style: solid;
-    border-width: 1;
-    background-color: aquamarine;   
+    background-color: rgb(32, 32, 64);   
     color: black;
     font-size: 18pt;
     background-image: url("");
