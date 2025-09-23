@@ -7,23 +7,33 @@
     }
 }
 
+@keyframes homeButtonRotate {
+    from {
+        rotate: 0deg;
+    }
+    to {
+        rotate: 90deg;
+    }
+}
+
 .link {
     background-image: url("gabriel-chavez.png")
 }
 
 body {
-    background-color: rgb(16, 32, 64);   
-    color: rgb(225, 225, 225);
+    background-color: rgb(33, 33, 33);   
+    color: rgb(170, 170, 170);
     font-size: 18pt;
     background-image: url("");
     }
 
 h1 {
-    border-style: dashed;
-    border-width: 20;
-    background-color: burlywood;
+    border-left-width: 1vw;
+    border-left-style: solid;
+    border-left-color: rgb(64,180,180);
+    padding-left: 0.5vw;
+    margin-left: 0.5vw;
     font-size: 40pt;
-    background-image: url("");
 }
 
 .stretch {
@@ -44,12 +54,12 @@ h1 {
     background-size: cover;
 }
 
-.homeButton {
-    background-image: "home_icon.png";
-    border-style: solid;
-    border-width: 6;
-    border-color: black;
-
+.homeButton:hover {
+    height: 50px;
+    width: 50px;
+    animation-name: homeButtonRotate;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
 }
 
 table {
