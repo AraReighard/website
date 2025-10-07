@@ -28,27 +28,8 @@ body {
     background-color: light-dark(#ffffff, #212121);   
     color: light-dark(#000000, #aaaaaa);
     font-size: 18pt;
+    background-image: url("");
     }
-
-div {
-    
-    color: #5EF719;
-    border-width: 4px;
-    border-color: #5EF719;
-    border-style: solid;
-    padding: 8px;
-    border-top-width: 16px;
-    border-top-color: #068800;
-    border-top-style: double;
-    margin: auto;
-    margin-top: 8px;
-    width: fit-content;
-    background-image: url("/pictures/text_background.png");
-    border-image: url("/pictures/text_border.png");
-    border-image-slice:10%;
-    border-image-width:3px;
-    
-}
 
 h1 {
     border-left-width: 1vw;
